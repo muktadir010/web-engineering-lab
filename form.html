@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loging form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+.first{
+    background-color: #1a9284;
+    border-radius: 5px;
+}
+.second{
+    background-color:#a18f0b;
+    color: rgb(13, 66, 113);
+
+    
+    
+    margin: 5px 5px 0px 0px;
+    padding: 0;
+    width: 100%;
+    border-radius: 5px;
+   
+    
+    
+}
+    
+
+.img{
+  
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+
+
+
+}
+
+
+
+.WEBSITE{
+    text-align: center;
+    color: #8d198d;
+    
+    
+}
+.home{
+    text-align: center;
+    color:rgb(157, 27, 107);
+}
+h3{
+text-align: center;
+}    
+p{
+    text-align: center;
+    color: #be1672;
+}
+form{
+    padding-bottom: 10px;
+    color: rgb(123, 10, 106);
+    text-align: center;
+    
+}
+
+.form{
+width: 100%;
+}
+
+
+
+        * {
+          box-sizing: border-box;
+        }
+        
+   
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; 
+        }
+        
+       
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .color{
+            color: #cc137c;
+            text-decoration: none;
+        }
+
+
+         .color:hover{
+            color:rgb(207, 13, 13);
+         }
+         .color:focus{
+            color: blue;
+         }
+        .paragraph:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(180, 12, 192, 0.3);
+    transition: 0.2s ease-in-out;
+        }
+
+        #password{
+            margin-left: 30px;
+        }
+        </style>
+
+
+
+    
+</head>
+<body>
+
+    <table class="first" cellspacing="0" border="1" width="100%" align="center" >
+        <tr>
+            <td height="50" width="100"><img class="img"  src="./image/download (3).png" alt=""  align="center"></td>
+            <td height="50" width="650" class="WEBSITE" > MY WEBSITE </td>
+            
+            <td height="70" width="150">
+                <p>
+                    sunday,14 Feb 2016
+                </p>
+               
+                    <form>
+                      <input name="fsrch" type="search" id="fsrch" placeholder="search here" >
+                    </form>
+            
+ 
+            </td>
+        </tr>
+    </table>
+
+     <table class="second" cellpadding="0" cellspacing="0" border="1" width="100%" align="center">
+        <tr class="home">
+            <td  height="40" width="150"><a href="index.html" class="color">HOME</a></td>
+            <td height="40" width="150"><a href="login form.html" class="color">FORM</a></td>
+            <td height="40" width="150"><a href="table.html" class="color">TABLE</a></td>
+            <td height="40" width="150"> <a href="newsportal.html" class="color">NEWSPORTAL</a></td>
+            <td height="40" width="150"><a href="image.html" class="color">IMAGE</a></td>
+            <td height="40" width="150"> <a href="contact.html" class="color">CONTACT</a></td>
+        </tr>
+
+     </table>
+
+
+
+
+    <div class="head">
+        
+    </div>
+    <div class="form">
+        <form action="">
+           <div class="name">
+            <h2>Login</h2>
+           
+        <div class="password">
+            <label for="password" >Phone or email:</label>
+            <input type="password" name="password" id="phone" placeholder="please Enter your phone or email...."  size="40" required>
+        </div><br>
+
+        <div class="password">
+            <label for="password" >password:</label>
+            <input type="password" name="password" id="password" placeholder="please Enter your password...."  size="40" required>
+        </div><br>
+
+
+        <div class="Login">
+            <label for="Login" ></label>
+            <button type="send" name="Login" id="Login" placeholder="Login" size="8"> Login</button>
+        </div><br>
+        
+        </form>
+
+        Don't have an accout?
+        <a href="resistation form.html">Sign Up</a>
+    </div>
+</body>
+</html>
